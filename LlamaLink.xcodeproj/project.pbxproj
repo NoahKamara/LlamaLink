@@ -3,20 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDA16B952B3F12A300BE82A9 /* ChatBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16B942B3F12A300BE82A9 /* ChatBoxView.swift */; };
+		FDA16B982B3F132200BE82A9 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16B972B3F132200BE82A9 /* MessageView.swift */; };
+		FDA16B9A2B3F137000BE82A9 /* MessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16B992B3F137000BE82A9 /* MessageContentView.swift */; };
+		FDA16B9D2B3F13AA00BE82A9 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDA16B9C2B3F13AA00BE82A9 /* MarkdownUI */; };
+		FDA16B9F2B3F13B800BE82A9 /* CodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16B9E2B3F13B800BE82A9 /* CodeBlock.swift */; };
+		FDA16BA32B3F13F300BE82A9 /* Splash in Frameworks */ = {isa = PBXBuildFile; productRef = FDA16BA22B3F13F300BE82A9 /* Splash */; };
+		FDA16BA62B3F141000BE82A9 /* SplashTokenizer in Frameworks */ = {isa = PBXBuildFile; productRef = FDA16BA52B3F141000BE82A9 /* SplashTokenizer */; };
+		FDA16BA82B3F255200BE82A9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BA72B3F255200BE82A9 /* ChatView.swift */; };
+		FDA16BAA2B3F260200BE82A9 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BA92B3F260200BE82A9 /* PreviewData.swift */; };
+		FDA16BAD2B3F29B000BE82A9 /* OmenTextField in Frameworks */ = {isa = PBXBuildFile; productRef = FDA16BAC2B3F29B000BE82A9 /* OmenTextField */; };
+		FDA16BAF2B3F2A2F00BE82A9 /* TestTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BAE2B3F2A2F00BE82A9 /* TestTextField.swift */; };
+		FDA16BB12B3F34CD00BE82A9 /* MessageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BB02B3F34CD00BE82A9 /* MessageHeaderView.swift */; };
+		FDA16BB42B3F34EC00BE82A9 /* FlipGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BB32B3F34EC00BE82A9 /* FlipGroup.swift */; };
+		FDA16BB62B3F43FB00BE82A9 /* MessageFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BB52B3F43FB00BE82A9 /* MessageFooterView.swift */; };
+		FDA16BB82B3F44C300BE82A9 /* CopyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BB72B3F44C300BE82A9 /* CopyButton.swift */; };
+		FDA16BBB2B3F475A00BE82A9 /* ChatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BBA2B3F475A00BE82A9 /* ChatEntity.swift */; };
+		FDA16BBD2B3F477B00BE82A9 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BBC2B3F477B00BE82A9 /* MessageEntity.swift */; };
+		FDA16BBF2B3F47BD00BE82A9 /* VariantEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA16BBE2B3F47BD00BE82A9 /* VariantEntity.swift */; };
 		FDC1E8772B3E69D100467064 /* LlamaLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1E8762B3E69D100467064 /* LlamaLinkApp.swift */; };
-		FDC1E8792B3E69D100467064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1E8782B3E69D100467064 /* ContentView.swift */; };
+		FDC1E8792B3E69D100467064 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1E8782B3E69D100467064 /* MainView.swift */; };
 		FDC1E87B2B3E69D200467064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC1E87A2B3E69D200467064 /* Assets.xcassets */; };
 		FDC1E87F2B3E69D300467064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC1E87E2B3E69D300467064 /* Preview Assets.xcassets */; };
+		FDC1E8872B3E69EB00467064 /* Ollama in Frameworks */ = {isa = PBXBuildFile; productRef = FDC1E8862B3E69EB00467064 /* Ollama */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FDA16B922B3F103700BE82A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FDA16B942B3F12A300BE82A9 /* ChatBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoxView.swift; sourceTree = "<group>"; };
+		FDA16B972B3F132200BE82A9 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		FDA16B992B3F137000BE82A9 /* MessageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageContentView.swift; sourceTree = "<group>"; };
+		FDA16B9E2B3F13B800BE82A9 /* CodeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlock.swift; sourceTree = "<group>"; };
+		FDA16BA72B3F255200BE82A9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		FDA16BA92B3F260200BE82A9 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		FDA16BAE2B3F2A2F00BE82A9 /* TestTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextField.swift; sourceTree = "<group>"; };
+		FDA16BB02B3F34CD00BE82A9 /* MessageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHeaderView.swift; sourceTree = "<group>"; };
+		FDA16BB32B3F34EC00BE82A9 /* FlipGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipGroup.swift; sourceTree = "<group>"; };
+		FDA16BB52B3F43FB00BE82A9 /* MessageFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFooterView.swift; sourceTree = "<group>"; };
+		FDA16BB72B3F44C300BE82A9 /* CopyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyButton.swift; sourceTree = "<group>"; };
+		FDA16BBA2B3F475A00BE82A9 /* ChatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEntity.swift; sourceTree = "<group>"; };
+		FDA16BBC2B3F477B00BE82A9 /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		FDA16BBE2B3F47BD00BE82A9 /* VariantEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantEntity.swift; sourceTree = "<group>"; };
 		FDC1E8732B3E69D100467064 /* LlamaLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LlamaLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC1E8762B3E69D100467064 /* LlamaLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlamaLinkApp.swift; sourceTree = "<group>"; };
-		FDC1E8782B3E69D100467064 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDC1E8782B3E69D100467064 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FDC1E87A2B3E69D200467064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC1E87C2B3E69D200467064 /* LlamaLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LlamaLink.entitlements; sourceTree = "<group>"; };
 		FDC1E87E2B3E69D300467064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,17 +61,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC1E8872B3E69EB00467064 /* Ollama in Frameworks */,
+				FDA16BAD2B3F29B000BE82A9 /* OmenTextField in Frameworks */,
+				FDA16BA62B3F141000BE82A9 /* SplashTokenizer in Frameworks */,
+				FDA16B9D2B3F13AA00BE82A9 /* MarkdownUI in Frameworks */,
+				FDA16BA32B3F13F300BE82A9 /* Splash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDA16B932B3F129E00BE82A9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16BA72B3F255200BE82A9 /* ChatView.swift */,
+				FDA16B942B3F12A300BE82A9 /* ChatBoxView.swift */,
+				FDA16BAE2B3F2A2F00BE82A9 /* TestTextField.swift */,
+				FDA16B962B3F131C00BE82A9 /* Message */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		FDA16B962B3F131C00BE82A9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16BA02B3F13BA00BE82A9 /* Content */,
+				FDA16B972B3F132200BE82A9 /* MessageView.swift */,
+				FDA16BB52B3F43FB00BE82A9 /* MessageFooterView.swift */,
+				FDA16BB02B3F34CD00BE82A9 /* MessageHeaderView.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FDA16BA02B3F13BA00BE82A9 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16B992B3F137000BE82A9 /* MessageContentView.swift */,
+				FDA16B9E2B3F13B800BE82A9 /* CodeBlock.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		FDA16BA42B3F141000BE82A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA16BB22B3F34E800BE82A9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16BB32B3F34EC00BE82A9 /* FlipGroup.swift */,
+				FDA16BB72B3F44C300BE82A9 /* CopyButton.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FDA16BB92B3F474D00BE82A9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FDA16BBA2B3F475A00BE82A9 /* ChatEntity.swift */,
+				FDA16BBC2B3F477B00BE82A9 /* MessageEntity.swift */,
+				FDA16BBE2B3F47BD00BE82A9 /* VariantEntity.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		FDC1E86A2B3E69D100467064 = {
 			isa = PBXGroup;
 			children = (
 				FDC1E8752B3E69D100467064 /* LlamaLink */,
 				FDC1E8742B3E69D100467064 /* Products */,
+				FDA16BA42B3F141000BE82A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +149,12 @@
 		FDC1E8752B3E69D100467064 /* LlamaLink */ = {
 			isa = PBXGroup;
 			children = (
+				FDA16B922B3F103700BE82A9 /* Info.plist */,
 				FDC1E8762B3E69D100467064 /* LlamaLinkApp.swift */,
-				FDC1E8782B3E69D100467064 /* ContentView.swift */,
+				FDA16BB92B3F474D00BE82A9 /* Persistence */,
+				FDA16BB22B3F34E800BE82A9 /* Util */,
+				FDA16B932B3F129E00BE82A9 /* Chat */,
+				FDC1E8782B3E69D100467064 /* MainView.swift */,
 				FDC1E87A2B3E69D200467064 /* Assets.xcassets */,
 				FDC1E87C2B3E69D200467064 /* LlamaLink.entitlements */,
 				FDC1E87D2B3E69D300467064 /* Preview Content */,
@@ -65,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				FDC1E87E2B3E69D300467064 /* Preview Assets.xcassets */,
+				FDA16BA92B3F260200BE82A9 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,6 +187,13 @@
 			dependencies = (
 			);
 			name = LlamaLink;
+			packageProductDependencies = (
+				FDC1E8862B3E69EB00467064 /* Ollama */,
+				FDA16B9C2B3F13AA00BE82A9 /* MarkdownUI */,
+				FDA16BA22B3F13F300BE82A9 /* Splash */,
+				FDA16BA52B3F141000BE82A9 /* SplashTokenizer */,
+				FDA16BAC2B3F29B000BE82A9 /* OmenTextField */,
+			);
 			productName = LlamaLink;
 			productReference = FDC1E8732B3E69D100467064 /* LlamaLink.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +222,12 @@
 				Base,
 			);
 			mainGroup = FDC1E86A2B3E69D100467064;
+			packageReferences = (
+				FDC1E8852B3E69EB00467064 /* XCLocalSwiftPackageReference "../Ollama" */,
+				FDA16B9B2B3F13AA00BE82A9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				FDA16BA12B3F13F300BE82A9 /* XCRemoteSwiftPackageReference "Splash" */,
+				FDA16BAB2B3F29B000BE82A9 /* XCRemoteSwiftPackageReference "OmenTextField" */,
+			);
 			productRefGroup = FDC1E8742B3E69D100467064 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +254,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC1E8792B3E69D100467064 /* ContentView.swift in Sources */,
+				FDA16BBF2B3F47BD00BE82A9 /* VariantEntity.swift in Sources */,
+				FDA16BAA2B3F260200BE82A9 /* PreviewData.swift in Sources */,
+				FDA16BB62B3F43FB00BE82A9 /* MessageFooterView.swift in Sources */,
+				FDA16BAF2B3F2A2F00BE82A9 /* TestTextField.swift in Sources */,
+				FDA16BB42B3F34EC00BE82A9 /* FlipGroup.swift in Sources */,
+				FDA16B9F2B3F13B800BE82A9 /* CodeBlock.swift in Sources */,
+				FDA16B9A2B3F137000BE82A9 /* MessageContentView.swift in Sources */,
+				FDA16BB82B3F44C300BE82A9 /* CopyButton.swift in Sources */,
+				FDA16B982B3F132200BE82A9 /* MessageView.swift in Sources */,
+				FDC1E8792B3E69D100467064 /* MainView.swift in Sources */,
+				FDA16BBB2B3F475A00BE82A9 /* ChatEntity.swift in Sources */,
+				FDA16BA82B3F255200BE82A9 /* ChatView.swift in Sources */,
+				FDA16BBD2B3F477B00BE82A9 /* MessageEntity.swift in Sources */,
 				FDC1E8772B3E69D100467064 /* LlamaLinkApp.swift in Sources */,
+				FDA16B952B3F12A300BE82A9 /* ChatBoxView.swift in Sources */,
+				FDA16BB12B3F34CD00BE82A9 /* MessageHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +403,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LlamaLink/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +442,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LlamaLink/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -359,6 +490,67 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FDC1E8852B3E69EB00467064 /* XCLocalSwiftPackageReference "../Ollama" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Ollama;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDA16B9B2B3F13AA00BE82A9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		FDA16BA12B3F13F300BE82A9 /* XCRemoteSwiftPackageReference "Splash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Splash";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.0;
+			};
+		};
+		FDA16BAB2B3F29B000BE82A9 /* XCRemoteSwiftPackageReference "OmenTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kitlangton/OmenTextField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDA16B9C2B3F13AA00BE82A9 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDA16B9B2B3F13AA00BE82A9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		FDA16BA22B3F13F300BE82A9 /* Splash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDA16BA12B3F13F300BE82A9 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = Splash;
+		};
+		FDA16BA52B3F141000BE82A9 /* SplashTokenizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDA16BA12B3F13F300BE82A9 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = SplashTokenizer;
+		};
+		FDA16BAC2B3F29B000BE82A9 /* OmenTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDA16BAB2B3F29B000BE82A9 /* XCRemoteSwiftPackageReference "OmenTextField" */;
+			productName = OmenTextField;
+		};
+		FDC1E8862B3E69EB00467064 /* Ollama */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Ollama;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FDC1E86B2B3E69D100467064 /* Project object */;
 }
